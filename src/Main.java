@@ -21,9 +21,12 @@ public class Main {
 	
 	public static void main(String args[]) throws SAXException,
     IOException, ParserConfigurationException{
-		
+
+	    ConexaoPGSQL conectar = new ConexaoPGSQL();
+	    conectar.Conectar("postgres", "070499");
+
 		//Conectar no Banco de dados
-		Driver driver = GraphDatabase.driver("bolt://localhost:7687", AuthTokens.basic("neo4j", "070499"));
+		/*Driver driver = GraphDatabase.driver("bolt://localhost:7687", AuthTokens.basic("neo4j", "070499"));
 
 		//Ler Arquivo
 		File fXmlFile = new File("D:\\Teste.bpmn");
@@ -109,5 +112,5 @@ public class Main {
             
         }
         driver.close();
-    }
+    */}
 }
