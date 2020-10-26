@@ -12,6 +12,7 @@ import java.io.IOException;
 
 public class LerXML {
 
+
     public static void LerXML(String tag) throws SAXException,
             IOException, ParserConfigurationException {
 
@@ -29,6 +30,8 @@ public class LerXML {
 
             Node nNode = startEvent.item(i);
 
+            ConexaoPGSQL c = new ConexaoPGSQL();
+
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 
                 Element elem = (Element) nNode;
@@ -36,20 +39,25 @@ public class LerXML {
                 if(tag == "startEvent") {
                     String id = elem.getAttribute("id");
                     System.out.printf("EventoInicial: %s%n", id);
+                    c.insertElemet(id, tag);
+
                 }
                 if(tag == "task"){
                     String id = elem.getAttribute("id");
                     System.out.printf("Tarefa: %s%n", id);
+                    c.insertElemet(id, tag);
                 }
                 if(tag == "endEvent"){
                     String id = elem.getAttribute("id");
                     System.out.printf("EventoFinal: %s%n", id);
+                    c.insertElemet(id, tag);
                 }
                 if(tag == "sequenceFlow"){
-                    String sourceRef = elem.getAttribute("sourceRef");
-                    String targetRef = elem.getAttribute("targetRef");
-                    System.out.printf("AtividadeOrigem: %s%n", sourceRef);
-                    System.out.printf("AtividadeDestino: %s%n", targetRef);
+                    String idOrigem = elem.getAttribute("sourceRef");
+                    String idDestino = elem.getAttribute("targetRef");
+                    System.out.printf("AtividadeOrigem: %s%n", idOrigem);
+                    System.out.printf("AtividadeDestino: %s%n", idDestino);
+                    c.insertFluxo(idOrigem, idDestino);
                 }
             }
         }

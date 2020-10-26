@@ -4,23 +4,13 @@ import java.sql.Statement;
 
 public class ConexaoPGSQL {
 
-    Connection connection = null;
-    Statement statement = null;
+    private String nome = "postgres";
+    private String senha = "070499";
+    private String url = "jdbc:postgresql://localhost:5432/projetotcc";
+    private Connection connection;
+    private Statement statement;
+    private String drive = "org.postgresql.Driver";
 
-    public void ConectarPostgresql(String user, String senha){
-
-        try{
-            Class.forName("org.postgresql.Driver");
-            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/projetotcc", user, senha);
-            System.out.println("Conexão realizada com sucesso!");
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.err.println(e.getClass().getName()+": "+e.getMessage());
-            System.exit(0);
-        }
-        System.out.println("Opened database successfully");
-
-    }
 
     public void insertProcess(){
         try {
@@ -34,9 +24,27 @@ public class ConexaoPGSQL {
 
     }
 
-    public void insertElemet(String id, String name){
+    public void insertElemet(String id, String tag){
         try {
-            String query = "INSERT INTO \"Process\" (\"CodProcess\",\"NameProcess\") values ('1','Teste')";
+            Class.forName(drive);
+            connection = DriverManager.getConnection(url, nome, senha);
+            statement = connection.createStatement();
+            String query = "INSERT INTO \"Element\" (\"IdElement\", \"NameElement\", \"CodProcess\") values ('"+id+"','"+tag+"','1')";
+            statement = connection.createStatement();
+            statement.executeUpdate(query);
+            System.out.println("Valor Inserido!");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+    }
+
+    public void insertFluxo(String idOrigem, String idDestino){
+        try {
+            Class.forName(drive);
+            connection = DriverManager.getConnection(url, nome, senha);
+            statement = connection.createStatement();
+            String query = "INSERT INTO \"Flow\" (\"StructFrom\", \"StructTo\") values ('"+idOrigem+"','"+idDestino+"')";
             statement = connection.createStatement();
             statement.executeUpdate(query);
             System.out.println("Valor Inserido!");
