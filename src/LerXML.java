@@ -12,8 +12,26 @@ import java.io.IOException;
 
 public class LerXML {
 
+    Integer id;
+    String nome;
 
-    public static void LerXML(String tag) throws SAXException,
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public static void lerXML(String tag, Integer idProcesso) throws SAXException,
             IOException, ParserConfigurationException {
 
         //Ler Arquivo
@@ -30,27 +48,27 @@ public class LerXML {
 
             Node nNode = startEvent.item(i);
 
-            ConexaoPGSQL c = new ConexaoPGSQL();
+            InsertValuePGSQL c = new InsertValuePGSQL();
 
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 
                 Element elem = (Element) nNode;
 
                 if(tag == "startEvent") {
-                    String id = elem.getAttribute("id");
-                    System.out.printf("EventoInicial: %s%n", id);
-                    c.insertElemet(id, tag);
+                    String idElemento = elem.getAttribute("id");
+                    System.out.printf("EventoInicial: %s%n", idElemento);
+                    c.insertElemet(idElemento, tag, idProcesso);
 
                 }
                 if(tag == "task"){
-                    String id = elem.getAttribute("id");
-                    System.out.printf("Tarefa: %s%n", id);
-                    c.insertElemet(id, tag);
+                    String idElemento = elem.getAttribute("id");
+                    System.out.printf("Tarefa: %s%n", idElemento);
+                    c.insertElemet(idElemento, tag, idProcesso);
                 }
                 if(tag == "endEvent"){
-                    String id = elem.getAttribute("id");
-                    System.out.printf("EventoFinal: %s%n", id);
-                    c.insertElemet(id, tag);
+                    String idElemento = elem.getAttribute("id");
+                    System.out.printf("EventoFinal: %s%n", idElemento);
+                    c.insertElemet(idElemento, tag, idProcesso);
                 }
                 if(tag == "sequenceFlow"){
                     String idOrigem = elem.getAttribute("sourceRef");
