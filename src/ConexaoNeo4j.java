@@ -2,19 +2,18 @@ import org.neo4j.driver.AuthTokens;
 import org.neo4j.driver.Driver;
 import org.neo4j.driver.GraphDatabase;
 
+public class ConexaoNeo4j {
 
-public class ConexaoNeo4j implements AutoCloseable
-{
-    private Driver driver;
+    private String nome = "neo4j";
+    private String senha = "070499";
+    private String url = "bolt://localhost:7687";
 
-    public void ConectarNeo4j(String user, String senha )
-    {
-        driver = GraphDatabase.driver("bolt://localhost:7687", AuthTokens.basic( user, senha ) );
+    public Driver getConectarNeo4j() {
+        try {
+           return GraphDatabase.driver(url, AuthTokens.basic(nome, senha));
+        }catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
-    @Override
-    public void close() throws Exception
-    {
-        driver.close();
-    }
 }

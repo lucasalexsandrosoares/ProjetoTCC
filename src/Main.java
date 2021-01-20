@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String args[]) throws SAXException,
     IOException, ParserConfigurationException{
 
-		LerXML elemento = new LerXML();
+		/*LerXML elemento = new LerXML();
 		Scanner s = new Scanner(System.in);
 		System.out.println("Nome do Processo: ");
 		elemento.setNome(s.nextLine());
@@ -21,12 +21,20 @@ public class Main {
 
 		elemento.lerXML("startEvent", elemento.getId());
 		elemento.lerXML("task", elemento.getId());
+		elemento.lerXML("exclusiveGateway", elemento.getId());
 		elemento.lerXML("endEvent", elemento.getId());
-		elemento.lerXML("sequenceFlow", elemento.getId());
+		elemento.lerXML("sequenceFlow", elemento.getId());*/
 
 		//Conectar no Banco de dados Neo4j
 	    //ConexaoNeo4j neo4j = new ConexaoNeo4j();
-	    //neo4j.ConectarNeo4j("neo4j", "070499");
+		InsertValueNeo4j neo4j = new InsertValueNeo4j();
+		neo4j.create();
+
+		/*LerXML elemento = new LerXML();
+		Scanner s = new Scanner(System.in);
+		System.out.println("\nIdProcesso: ");
+		elemento.setId(s.nextInt());
+		elemento.lerXML("startEvent", elemento.getId());*/
 
 	    }
 }

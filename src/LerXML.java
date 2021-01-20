@@ -35,18 +35,18 @@ public class LerXML {
             IOException, ParserConfigurationException {
 
         //Ler Arquivo
-        File file = new File("D:\\Teste.bpmn");
+        File file = new File("D:\\Abertura de Chamado.bpmn");
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = factory.newDocumentBuilder();
         Document doc = dBuilder.parse(file);
 
         doc.getDocumentElement().normalize();
 
-        NodeList startEvent = doc.getElementsByTagName(tag);
+        NodeList no = doc.getElementsByTagName(tag);
 
-        for (int i = 0; i < startEvent.getLength(); i++) {
+        for (int i = 0; i < no.getLength(); i++) {
 
-            Node nNode = startEvent.item(i);
+            Node nNode = no.item(i);
 
             InsertValuePGSQL c = new InsertValuePGSQL();
 
@@ -57,25 +57,32 @@ public class LerXML {
                 if(tag == "startEvent") {
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("EventoInicial: %s%n", idElemento);
-                    c.insertElemet(idElemento, tag, idProcesso);
+                    //c.insertElemet(idElemento, tag, idProcesso);
 
                 }
                 if(tag == "task"){
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("Tarefa: %s%n", idElemento);
-                    c.insertElemet(idElemento, tag, idProcesso);
+                    //c.insertElemet(idElemento, tag, idProcesso);
                 }
+
+                if(tag == "exclusiveGateway"){
+                    String idElemento = elem.getAttribute("id");
+                    System.out.printf("Gateway: %s%n", idElemento);
+                    //c.insertElemet(idElemento, tag, idProcesso);
+                }
+
                 if(tag == "endEvent"){
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("EventoFinal: %s%n", idElemento);
-                    c.insertElemet(idElemento, tag, idProcesso);
+                    //c.insertElemet(idElemento, tag, idProcesso);
                 }
                 if(tag == "sequenceFlow"){
                     String idOrigem = elem.getAttribute("sourceRef");
                     String idDestino = elem.getAttribute("targetRef");
                     System.out.printf("AtividadeOrigem: %s%n", idOrigem);
                     System.out.printf("AtividadeDestino: %s%n", idDestino);
-                    c.insertFluxo(idOrigem, idDestino);
+                    //c.insertFluxo(idOrigem, idDestino);
                 }
             }
         }
