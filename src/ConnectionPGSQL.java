@@ -2,16 +2,16 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class ConectarPGSQL {
+public class ConnectionPGSQL {
 
-    private String nome = "postgres";
-    private String senha = "070499";
+    private String name = "postgres";
+    private String password = "070499";
     private String url = "jdbc:postgresql://localhost:5432/projetotcc";
 
     public Connection getConnection() {
         try {
             return DriverManager.getConnection(
-                    url, nome, senha);
+                    url, name, password);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

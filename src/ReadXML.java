@@ -10,10 +10,10 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
 
-public class LerXML {
+public class ReadXML {
 
     Integer id;
-    String nome;
+    String name;
 
     public Integer getId() {
         return id;
@@ -23,12 +23,12 @@ public class LerXML {
         this.id = id;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public static void lerXML(String tag, Integer idProcesso) throws SAXException,
@@ -49,6 +49,7 @@ public class LerXML {
             Node nNode = no.item(i);
 
             InsertValuePGSQL c = new InsertValuePGSQL();
+            InsertValueNeo4j insertNeo4j = new InsertValueNeo4j();
 
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 
@@ -58,24 +59,28 @@ public class LerXML {
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("EventoInicial: %s%n", idElemento);
                     //c.insertElemet(idElemento, tag, idProcesso);
+                    insertNeo4j.insertTask(idProcesso, idElemento, tag);
 
                 }
                 if(tag == "task"){
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("Tarefa: %s%n", idElemento);
                     //c.insertElemet(idElemento, tag, idProcesso);
+                    insertNeo4j.insertTask(idProcesso, idElemento, tag);
                 }
 
                 if(tag == "exclusiveGateway"){
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("Gateway: %s%n", idElemento);
                     //c.insertElemet(idElemento, tag, idProcesso);
+                    insertNeo4j.insertTask(idProcesso, idElemento, tag);
                 }
 
                 if(tag == "endEvent"){
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("EventoFinal: %s%n", idElemento);
                     //c.insertElemet(idElemento, tag, idProcesso);
+                    insertNeo4j.insertTask(idProcesso, idElemento, tag);
                 }
                 if(tag == "sequenceFlow"){
                     String idOrigem = elem.getAttribute("sourceRef");
@@ -83,6 +88,7 @@ public class LerXML {
                     System.out.printf("AtividadeOrigem: %s%n", idOrigem);
                     System.out.printf("AtividadeDestino: %s%n", idDestino);
                     //c.insertFluxo(idOrigem, idDestino);
+                    //insertNeo4j.relation(idOrigem, idDestino);
                 }
             }
         }
