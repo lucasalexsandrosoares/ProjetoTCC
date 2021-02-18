@@ -39,6 +39,6 @@ public class Main {
 		elemento.lerXML("task", elemento.getId());
 		elemento.lerXML("exclusiveGateway", elemento.getId());
 		elemento.lerXML("endEvent", elemento.getId());
-
+		elemento.lerXML("sequenceFlow", elemento.getId());
 	    }
 }
