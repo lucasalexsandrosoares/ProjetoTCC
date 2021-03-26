@@ -1,44 +1,63 @@
-import org.xml.sax.SAXException;
 import java.util.Scanner;
 
-import java.io.IOException;
-import javax.xml.parsers.ParserConfigurationException;
-
 public class Main {
-	
-	public static void main(String args[]) throws SAXException,
-    IOException, ParserConfigurationException{
 
-		/*ReadXML elemento = new ReadXML();
-		Scanner s = new Scanner(System.in);
-		System.out.println("Nome do Processo: ");
-		elemento.setName(s.nextLine());
-		System.out.println("\nIdProcesso: ");
-		elemento.setId(s.nextInt());
+    public static void main(String args[]) throws Exception {
+        int op = 0;
+        while (op != 9) {
+            System.out.println("1 - Usa postgres");
+            System.out.println("2 - Usa neo4j");
+            System.out.println("9 - Fim");
+            Scanner x = new Scanner(System.in);
+            op = x.nextInt();
+            x.close();
+            switch (op) {
+                case 1:
+                    lePostgres();
+                    break;
+                case 2:
+                    leNeo4j();
+                    break;
+            }
+        }
+    }
 
-		InsertValuePGSQL c = new InsertValuePGSQL();
-		c.insertProcess(elemento.getId(),elemento.getName());
+    public static void lePostgres() throws Exception {
 
-		elemento.lerXML("startEvent", elemento.getId());
-		elemento.lerXML("task", elemento.getId());
-		elemento.lerXML("exclusiveGateway", elemento.getId());
-		elemento.lerXML("endEvent", elemento.getId());
-		elemento.lerXML("sequenceFlow", elemento.getId());*/
+        ReadXML elemento = new ReadXML();
+        Scanner s = new Scanner(System.in);
+        System.out.println("Nome do Processo: ");
+        elemento.setName(s.nextLine());
+        System.out.println("\nIdProcesso: ");
+        elemento.setId(s.nextInt());
+        s.close();
 
-		//Conectar no Banco de dados Neo4j
-	    //ConexaoNeo4j neo4j = new ConexaoNeo4j();
-		InsertValueNeo4j neo4j = new InsertValueNeo4j();
+        InsertValuePGSQL c = new InsertValuePGSQL();
+        c.insertProcess(elemento.getId(), elemento.getName());
 
-		ReadXML elemento = new ReadXML();
-		Scanner s = new Scanner(System.in);
-		System.out.println("Nome do Processo: ");
-		elemento.setName(s.nextLine());
-		System.out.println("\nIdProcesso: ");
-		elemento.setId(s.nextInt());
-		elemento.lerXML("startEvent", elemento.getId());
-		elemento.lerXML("task", elemento.getId());
-		elemento.lerXML("exclusiveGateway", elemento.getId());
-		elemento.lerXML("endEvent", elemento.getId());
-		elemento.lerXML("sequenceFlow", elemento.getId());
-	    }
+        ReadXML.lerXML("startEvent", elemento.getId());
+        ReadXML.lerXML("task", elemento.getId());
+        ReadXML.lerXML("exclusiveGateway", elemento.getId());
+        ReadXML.lerXML("endEvent", elemento.getId());
+        ReadXML.lerXML("sequenceFlow", elemento.getId());
+    }
+
+    public static void leNeo4j() throws Exception {
+        // Conectar no Banco de dados Neo4j
+        // ConexaoNeo4j neo4j = new ConexaoNeo4j();
+        // InsertValueNeo4j neo4j = new InsertValueNeo4j();
+
+        ReadXML elemento = new ReadXML();
+        Scanner s = new Scanner(System.in);
+        System.out.println("Nome do Processo: ");
+        elemento.setName(s.nextLine());
+        System.out.println("\nIdProcesso: ");
+        elemento.setId(s.nextInt());
+        s.close();
+        ReadXML.lerXML("startEvent", elemento.getId());
+        ReadXML.lerXML("task", elemento.getId());
+        ReadXML.lerXML("exclusiveGateway", elemento.getId());
+        ReadXML.lerXML("endEvent", elemento.getId());
+        ReadXML.lerXML("sequenceFlow", elemento.getId());
+    }
 }
