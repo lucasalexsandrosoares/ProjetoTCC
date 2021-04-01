@@ -49,7 +49,7 @@ public class ReadXML {
             Node nNode = no.item(i);
 
             InsertValuePGSQL c = new InsertValuePGSQL();
-            InsertValueNeo4j insertNeo4j = new InsertValueNeo4j();
+            //InsertValueNeo4j insertNeo4j = new InsertValueNeo4j();
 
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 
@@ -58,40 +58,39 @@ public class ReadXML {
                 if(tag == "startEvent") {
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("EventoInicial: %s%n", idElemento);
-                    //c.insertElemet(idElemento, tag, idProcesso);
-                    insertNeo4j.insertStartEvent(idProcesso, idElemento, tag);
+                    c.insertElemet(idElemento, tag, idProcesso);
+                    //insertNeo4j.insertStartEvent(idProcesso, idElemento, tag);
 
                 }
                 if(tag == "task"){
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("Tarefa: %s%n", idElemento);
-                    //c.insertElemet(idElemento, tag, idProcesso);
-                    insertNeo4j.insertTask(idProcesso, idElemento, tag);
+                    c.insertElemet(idElemento, tag, idProcesso);
+                    //insertNeo4j.insertTask(idProcesso, idElemento, tag);
                 }
 
                 if(tag == "exclusiveGateway"){
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("Gateway: %s%n", idElemento);
-                    //c.insertElemet(idElemento, tag, idProcesso);
-                    insertNeo4j.insertExclusiveGateway(idProcesso, idElemento, tag);
+                    c.insertElemet(idElemento, tag, idProcesso);
+                    //insertNeo4j.insertExclusiveGateway(idProcesso, idElemento, tag);
                 }
 
                 if(tag == "endEvent"){
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("EventoFinal: %s%n", idElemento);
-                    //c.insertElemet(idElemento, tag, idProcesso);
-                    insertNeo4j.insertEndEvent(idProcesso, idElemento, tag);
+                    c.insertElemet(idElemento, tag, idProcesso);
+                    //insertNeo4j.insertEndEvent(idProcesso, idElemento, tag);
                 }
                 if(tag == "sequenceFlow"){
                     String idOrigem = elem.getAttribute("sourceRef");
                     String idDestino = elem.getAttribute("targetRef");
                     System.out.printf("AtividadeOrigem: %s%n", idOrigem);
                     System.out.printf("AtividadeDestino: %s%n", idDestino);
-                    //c.insertFluxo(idOrigem, idDestino);
-                    insertNeo4j.relationship(idOrigem, idDestino);
+                    c.insertFluxo(idOrigem, idDestino);
+                    //insertNeo4j.relationship(idOrigem, idDestino);
                 }
             }
         }
-
     }
 }

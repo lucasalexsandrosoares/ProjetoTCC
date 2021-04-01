@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String args[]) throws Exception {
+        //System.out.println(args[0]);
+
         int op = 0;
         while (op != 9) {
             System.out.println("1 - Usa postgres");

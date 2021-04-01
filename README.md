@@ -10,7 +10,7 @@ Para conectar no banco de dados será necessário adicionar as seguintes depend�
 
 ```xml
 <dependency>
-<groupId>org.postgresql</groupId>
+    <groupId>org.postgresql</groupId>
 	<artifactId>postgresql</artifactId>
 	<version>42.2.5</version>
 </dependency>
