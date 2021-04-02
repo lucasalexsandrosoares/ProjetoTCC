@@ -14,6 +14,15 @@ public class ReadXML {
 
     Integer id;
     String name;
+    String nameFile;
+
+    public String getNameFile() {
+        return nameFile;
+    }
+
+    public void setNameFile(String nameFile) {
+        this.nameFile = nameFile;
+    }
 
     public Integer getId() {
         return id;
@@ -31,11 +40,12 @@ public class ReadXML {
         this.name = name;
     }
 
-    public static void lerXML(String tag, Integer idProcesso) throws SAXException,
+    public static void lerXML(String tag, Integer idProcesso, String Arquivo, Integer op) throws SAXException,
             IOException, ParserConfigurationException {
 
         //Ler Arquivo
-        File file = new File("D:\\Abertura de Chamado.bpmn");
+        //File file = new File("D:\\Abertura de Chamado.bpmn");
+        File file = new File("D:\\" + Arquivo + ".bpmn");
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = factory.newDocumentBuilder();
         Document doc = dBuilder.parse(file);
@@ -58,37 +68,52 @@ public class ReadXML {
                 if(tag == "startEvent") {
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("EventoInicial: %s%n", idElemento);
-                    c.insertElemet(idElemento, tag, idProcesso);
-                    //insertNeo4j.insertStartEvent(idProcesso, idElemento, tag);
-
+                    if(op == 1){
+                        System.out.print("Deu certo");
+                        //c.insertElemet(idElemento, tag, idProcesso);
+                    }else {
+                        //insertNeo4j.insertStartEvent(idProcesso, idElemento, tag);
+                    }
                 }
                 if(tag == "task"){
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("Tarefa: %s%n", idElemento);
-                    c.insertElemet(idElemento, tag, idProcesso);
-                    //insertNeo4j.insertTask(idProcesso, idElemento, tag);
+                    if(op == 1) {
+                        //c.insertElemet(idElemento, tag, idProcesso);
+                    }else{
+                        //insertNeo4j.insertTask(idProcesso, idElemento, tag);
+                    }
                 }
 
                 if(tag == "exclusiveGateway"){
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("Gateway: %s%n", idElemento);
-                    c.insertElemet(idElemento, tag, idProcesso);
-                    //insertNeo4j.insertExclusiveGateway(idProcesso, idElemento, tag);
+                    if(op == 1) {
+                        //c.insertElemet(idElemento, tag, idProcesso);
+                    }else {
+                        //insertNeo4j.insertExclusiveGateway(idProcesso, idElemento, tag);
+                    }
                 }
 
                 if(tag == "endEvent"){
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("EventoFinal: %s%n", idElemento);
-                    c.insertElemet(idElemento, tag, idProcesso);
-                    //insertNeo4j.insertEndEvent(idProcesso, idElemento, tag);
+                    if(op == 1) {
+                        // c.insertElemet(idElemento, tag, idProcesso);
+                    }else {
+                        //insertNeo4j.insertEndEvent(idProcesso, idElemento, tag);
+                    }
                 }
                 if(tag == "sequenceFlow"){
                     String idOrigem = elem.getAttribute("sourceRef");
                     String idDestino = elem.getAttribute("targetRef");
                     System.out.printf("AtividadeOrigem: %s%n", idOrigem);
                     System.out.printf("AtividadeDestino: %s%n", idDestino);
-                    c.insertFluxo(idOrigem, idDestino);
-                    //insertNeo4j.relationship(idOrigem, idDestino);
+                    if(op == 1) {
+                        //c.insertFluxo(idOrigem, idDestino);
+                    }else {
+                        //insertNeo4j.relationship(idOrigem, idDestino);
+                    }
                 }
             }
         }

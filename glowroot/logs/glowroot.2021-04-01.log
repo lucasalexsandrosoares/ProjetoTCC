@@ -1,0 +1,248 @@
+2021-04-01 19:20:52.294 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:20:52.301 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:20:52.304 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=65448:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:21:00.117 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:25:20.629 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:25:20.633 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:25:20.634 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49188:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:25:27.872 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:29:22.471 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:29:22.476 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:29:22.477 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49252:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:29:30.119 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:35:28.756 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:35:28.758 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:35:28.759 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49321:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:35:33.498 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:36:18.666 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:36:18.668 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:36:18.669 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49343:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:36:23.359 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:39:20.986 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:39:20.988 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:39:20.989 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49785:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:39:25.351 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:41:13.317 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:41:13.319 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:41:13.320 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49833:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:41:17.508 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:41:58.808 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:41:58.811 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:41:58.812 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49853:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:42:05.510 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:42:18.658 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:42:18.660 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:42:18.662 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49864:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:42:23.846 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:42:35.909 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:42:35.913 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:42:35.914 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49876:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:42:41.847 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:43:26.965 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:43:26.971 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:43:26.972 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49895:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:43:33.995 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:44:12.555 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:44:12.557 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:44:12.558 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49916:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:44:16.582 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:46:23.654 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:46:23.656 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:46:23.657 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49947:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:46:27.424 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:48:49.019 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:48:49.022 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:48:49.023 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56173:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:48:52.880 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:51:17.820 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:51:17.822 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:51:17.823 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56229:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:51:21.688 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:52:10.782 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:52:10.786 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:52:10.786 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56244:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:52:15.416 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:53:32.134 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:53:32.136 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:53:32.137 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56285:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:53:35.877 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:55:58.297 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:55:58.299 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:55:58.300 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56315:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:56:01.819 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:57:06.862 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:57:06.865 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:57:06.866 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56340:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:57:10.450 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 19:58:07.787 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 19:58:07.790 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 19:58:07.792 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56359:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 19:58:11.940 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:00:07.808 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:00:07.811 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:00:07.812 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56391:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:00:11.313 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:01:11.899 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:01:11.901 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:01:11.902 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56407:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:01:15.521 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:01:55.043 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:01:55.045 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:01:55.046 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56421:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:01:59.012 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:03:05.854 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:03:05.857 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:03:05.858 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56444:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:03:11.493 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:04:27.681 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:04:27.683 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:04:27.684 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56462:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:04:31.386 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:11:25.138 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:11:25.145 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:11:25.145 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=56517:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:11:28.653 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:18:44.676 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:18:44.676 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:18:44.676 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=54433:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:18:50.294 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:22:11.739 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:22:11.739 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:22:11.754 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=54454:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:22:17.180 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:39:08.865 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:39:08.867 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:39:08.868 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=54614:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:39:14.553 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:39:48.120 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:39:48.122 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:39:48.123 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=54627:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:39:51.713 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:40:19.347 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:40:19.349 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:40:19.350 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=54639:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:40:23.015 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:43:50.199 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:43:50.201 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:43:50.202 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=59945:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:43:53.796 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:46:46.008 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:46:46.011 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:46:46.011 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=59977:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:46:49.704 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:47:52.148 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:47:52.150 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:47:52.151 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=59994:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:47:55.692 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:48:51.394 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:48:51.396 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:48:51.397 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60011:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:48:55.031 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:49:55.978 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:49:55.980 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:49:55.981 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60026:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:49:59.569 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:52:19.688 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:52:19.690 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:52:19.691 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60055:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:52:23.397 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:53:26.831 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:53:26.834 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:53:26.834 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60078:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:53:30.341 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:53:53.949 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:53:53.952 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:53:53.953 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60098:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:53:57.571 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:56:56.158 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:56:56.161 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:56:56.162 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60121:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:57:00.273 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:57:32.323 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:57:32.326 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:57:32.327 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60137:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:57:38.042 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 20:58:26.033 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 20:58:26.035 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 20:58:26.036 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60149:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 20:58:29.563 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:00:07.779 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:00:07.781 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:00:07.782 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60175:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:00:11.405 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:02:28.546 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:02:28.549 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:02:28.550 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60227:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:02:32.190 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:03:56.043 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:03:56.046 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:03:56.047 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60244:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:04:00.090 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:04:38.023 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:04:38.025 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:04:38.026 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60260:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:04:43.648 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:04:57.163 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:04:57.166 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:04:57.167 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60274:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:05:02.701 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:05:56.416 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:05:56.420 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:05:56.421 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60294:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:06:00.197 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:06:58.958 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:06:58.964 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:06:58.964 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60331:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:07:04.386 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:07:25.750 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:07:25.750 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:07:25.750 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60344:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:07:31.064 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:08:44.215 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:08:44.215 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:08:44.215 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60368:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:08:49.541 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:09:07.248 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:09:07.248 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:09:07.248 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60481:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:09:12.840 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:12:15.389 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:12:15.392 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:12:15.393 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60667:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:12:20.986 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:12:46.754 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:12:46.754 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:12:46.754 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60695:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:12:52.188 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:19:05.268 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:19:05.272 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:19:05.272 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=61168:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:19:11.121 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:19:42.554 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:19:42.557 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:19:42.558 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=61184:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:19:47.964 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:20:41.993 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:20:41.995 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:20:41.996 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=61238:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:20:46.114 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:22:14.918 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:22:14.921 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:22:14.922 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=61292:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:22:20.536 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:23:12.785 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:23:12.788 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:23:12.789 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=61321:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:23:18.499 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:27:57.780 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:27:57.783 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:27:57.783 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=61405:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:28:03.373 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:29:18.225 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:29:18.228 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:29:18.229 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=61424:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:29:21.840 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-01 21:29:53.071 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-01 21:29:53.074 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-01 21:29:53.075 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=61438:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-01 21:29:56.758 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
