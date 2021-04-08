@@ -44,8 +44,8 @@ public class ReadXML {
             IOException, ParserConfigurationException {
 
         //Ler Arquivo
-        //File file = new File("D:\\Abertura de Chamado.bpmn");
-        File file = new File("D:\\" + Arquivo + ".bpmn");
+        //File file = new File("D:\\" + Arquivo + ".bpmn");
+        File file = new File("C:\\src\\Projeto\\Processos\\" + Arquivo + ".bpmn");
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = factory.newDocumentBuilder();
         Document doc = dBuilder.parse(file);
@@ -58,7 +58,7 @@ public class ReadXML {
 
             Node nNode = no.item(i);
 
-            InsertValuePGSQL c = new InsertValuePGSQL();
+            //InsertValuePGSQL c = new InsertValuePGSQL();
             //InsertValueNeo4j insertNeo4j = new InsertValueNeo4j();
 
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
