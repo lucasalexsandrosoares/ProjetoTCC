@@ -15,26 +15,21 @@ public class Main {
             op = x.nextInt();
 
             ReadXML elemento = new ReadXML();
-            //input = s.next();
+
             switch (op) {
                 case 1:
-                    System.out.println("Nome do Processo: ");
-                    elemento.setName(s.next());
-                    System.out.println("\nIdProcesso: ");
+                    System.out.println("IdProcesso: ");
                     elemento.setId(s.nextInt());
-                    System.out.println("\nArquivo: ");
+                    System.out.println("Arquivo: ");
                     elemento.setNameFile(s.next());
-                    //InsertValuePGSQL c = new InsertValuePGSQL();
-                    //c.insertProcess(elemento.getId(), elemento.getName());
-                    ///ReadXML.lerXML("startEvent", elemento.getId(), elemento.getNameFile(), op);
+                    InsertValuePGSQL c = new InsertValuePGSQL();
+                    c.insertProcess(elemento.getId(), elemento.getNameFile());
                     lePostgres(elemento.getId(), elemento.getNameFile(), op);
                     break;
                 case 2:
-                    System.out.println("Nome do Processo: ");
-                    elemento.setName(s.next());
-                    System.out.println("\nIdProcesso: ");
+                    System.out.println("IdProcesso: ");
                     elemento.setId(s.nextInt());
-                    System.out.println("\nArquivo: ");
+                    System.out.println("Arquivo: ");
                     elemento.setNameFile(s.next());
                     leNeo4j(elemento.getId(), elemento.getNameFile(), op);
                     break;

@@ -1,6 +1,6 @@
 {
   "transactions": {
-    "slowThresholdMillis": 2000,
+    "slowThresholdMillis": 10,
     "profilingIntervalMillis": 1000,
     "captureThreadStats": true
   },
@@ -179,6 +179,18 @@
       "properties": {
         "useAltTransactionNaming": false
       }
+    }
+  ],
+  "instrumentation": [
+    {
+      "className": "Main",
+      "methodName": "lePostgres",
+      "methodParameterTypes": [
+        ".."
+      ],
+      "captureKind": "timer",
+      "transactionSlowThresholdMillis": 0,
+      "timerName": "Tempo"
     }
   ]
 }
