@@ -1,0 +1,1 @@
+java -javaagent:glowroot\glowroot.jar -jar target\lucastcc-0.1.0.jar server
