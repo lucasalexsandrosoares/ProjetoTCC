@@ -15,19 +15,19 @@ public class TccResource {
     @Path("postgres")
     public String lePostgres(@QueryParam("processo") String processo, @QueryParam("id") Integer id) throws Exception {
         log.info("lePostgres({}, {})", processo, id);
-        ReadXML elemento = new ReadXML();
-        elemento.setName(processo);
-        System.out.println("\nIdProcesso: ");
-        elemento.setId(id);
+        //ReadXML elemento = new ReadXML();
+        //elemento.setName(processo);
+        //System.out.println("\nIdProcesso: ");
+        //elemento.setId(id);
 
-        InsertValuePGSQL c = new InsertValuePGSQL();
-        c.insertProcess(elemento.getId(), elemento.getName());
+        //InsertValuePGSQL c = new InsertValuePGSQL();
+        //c.insertProcess(elemento.getId(), elemento.getName());
 
-        ReadXML.lerXML("startEvent", elemento.getId());
-        ReadXML.lerXML("task", elemento.getId());
-        ReadXML.lerXML("exclusiveGateway", elemento.getId());
-        ReadXML.lerXML("endEvent", elemento.getId());
-        ReadXML.lerXML("sequenceFlow", elemento.getId());
+        ReadXML.lerXML("startEvent", id);
+        ReadXML.lerXML("task", id);
+        ReadXML.lerXML("exclusiveGateway", id);
+        ReadXML.lerXML("endEvent", id);
+        ReadXML.lerXML("sequenceFlow", id);
         return "ok";
     }
 

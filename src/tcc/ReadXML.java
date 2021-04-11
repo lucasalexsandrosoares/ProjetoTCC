@@ -37,7 +37,7 @@ public class ReadXML {
             throws SAXException, IOException, ParserConfigurationException {
 
         // Ler Arquivo
-        File file = new File("D:\\Abertura de Chamado.bpmn");
+        File file = new File("C:\\src\\Projeto\\Processos\\AberturaChamado.bpmn");
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = factory.newDocumentBuilder();
         Document doc = dBuilder.parse(file);
@@ -61,28 +61,28 @@ public class ReadXML {
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("EventoInicial: %s%n", idElemento);
                     // c.insertElemet(idElemento, tag, idProcesso);
-                    insertNeo4j.insertStartEvent(idProcesso, idElemento, tag);
+                    //insertNeo4j.insertStartEvent(idProcesso, idElemento, tag);
 
                 }
                 if (tag == "task") {
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("Tarefa: %s%n", idElemento);
                     // c.insertElemet(idElemento, tag, idProcesso);
-                    insertNeo4j.insertTask(idProcesso, idElemento, tag);
+                   // insertNeo4j.insertTask(idProcesso, idElemento, tag);
                 }
 
                 if (tag == "exclusiveGateway") {
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("Gateway: %s%n", idElemento);
                     // c.insertElemet(idElemento, tag, idProcesso);
-                    insertNeo4j.insertExclusiveGateway(idProcesso, idElemento, tag);
+                    //insertNeo4j.insertExclusiveGateway(idProcesso, idElemento, tag);
                 }
 
                 if (tag == "endEvent") {
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("EventoFinal: %s%n", idElemento);
                     // c.insertElemet(idElemento, tag, idProcesso);
-                    insertNeo4j.insertEndEvent(idProcesso, idElemento, tag);
+                    //insertNeo4j.insertEndEvent(idProcesso, idElemento, tag);
                 }
                 if (tag == "sequenceFlow") {
                     String idOrigem = elem.getAttribute("sourceRef");
@@ -90,7 +90,7 @@ public class ReadXML {
                     System.out.printf("AtividadeOrigem: %s%n", idOrigem);
                     System.out.printf("AtividadeDestino: %s%n", idDestino);
                     // c.insertFluxo(idOrigem, idDestino);
-                    insertNeo4j.relationship(idOrigem, idDestino);
+                    //insertNeo4j.relationship(idOrigem, idDestino);
                 }
             }
         }
