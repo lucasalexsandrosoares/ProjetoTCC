@@ -82,3 +82,11 @@
 2021-04-11 18:45:37.712 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
 2021-04-11 18:45:37.713 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=62807:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
 2021-04-11 18:45:45.103 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-11 23:17:36.659 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-11 23:17:36.662 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-11 23:17:36.663 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60449:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-11 23:17:46.477 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)
+2021-04-11 23:19:27.449 INFO  org.glowroot - Glowroot version: 0.13.5, built 2019-07-23 01:30:08 +0000
+2021-04-11 23:19:27.453 INFO  org.glowroot - Java version: 11.0.4 (AdoptOpenJDK / Windows 10)
+2021-04-11 23:19:27.455 INFO  org.glowroot - Java args: -javaagent:C:\src\Projeto\glowroot\glowroot.jar -javaagent:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=60577:C:\Users\lucas\IntelliJ IDEA Community Edition 2020.2.3\bin
+2021-04-11 23:19:31.962 INFO  org.glowroot - UI listening on 127.0.0.1:4000 (to access the UI from remote machines, change the bind address to 0.0.0.0, either in the Glowroot UI under Configuration > Web or directly in the admin.json file, and then restart JVM to take effect)

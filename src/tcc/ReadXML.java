@@ -62,7 +62,7 @@ public class ReadXML {
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("EventoInicial: %s%n", idElemento);
                     if(op == 1){
-                        //c.insertElemet(idElemento, tag, idProcesso);
+                        c.insertElemet(idElemento, tag, idProcesso);
                     }else {
                         //insertNeo4j.insertStartEvent(idProcesso, idElemento, tag);
                     }
@@ -72,7 +72,7 @@ public class ReadXML {
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("Tarefa: %s%n", idElemento);
                     if(op == 1) {
-                        //c.insertElemet(idElemento, tag, idProcesso);
+                        c.insertElemet(idElemento, tag, idProcesso);
                     }else{
                         //insertNeo4j.insertTask(idProcesso, idElemento, tag);
                     }
@@ -83,7 +83,7 @@ public class ReadXML {
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("Gateway: %s%n", idElemento);
                     if(op == 1) {
-                        //c.insertElemet(idElemento, tag, idProcesso);
+                        c.insertElemet(idElemento, tag, idProcesso);
                     }else {
                         //insertNeo4j.insertExclusiveGateway(idProcesso, idElemento, tag);
                     }
@@ -93,7 +93,7 @@ public class ReadXML {
                     String idElemento = elem.getAttribute("id");
                     System.out.printf("EventoFinal: %s%n", idElemento);
                     if(op == 1) {
-                        // c.insertElemet(idElemento, tag, idProcesso);
+                        c.insertElemet(idElemento, tag, idProcesso);
                     }else {
                         //insertNeo4j.insertEndEvent(idProcesso, idElemento, tag);
                     }
@@ -104,7 +104,7 @@ public class ReadXML {
                     System.out.printf("AtividadeOrigem: %s%n", idOrigem);
                     System.out.printf("AtividadeDestino: %s%n", idDestino);
                     if(op == 1) {
-                        //c.insertFluxo(idOrigem, idDestino);
+                        c.insertFluxo(idOrigem, idDestino);
                     }else {
                         //insertNeo4j.relationship(idOrigem, idDestino);
                     }

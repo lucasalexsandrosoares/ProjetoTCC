@@ -20,8 +20,8 @@ public class TccResource {
         //System.out.println("\nIdProcesso: ");
         //elemento.setId(id);
 
-        //InsertValuePGSQL c = new InsertValuePGSQL();
-        //c.insertProcess(id, arquivo);
+        InsertValuePGSQL c = new InsertValuePGSQL();
+        c.insertProcess(id, arquivo);
 
         ReadXML.lerXML("startEvent", id, arquivo, op);
         ReadXML.lerXML("task", id, arquivo, op);
