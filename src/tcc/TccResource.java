@@ -13,7 +13,7 @@ public class TccResource {
     private static final Logger log = LoggerFactory.getLogger(TccResource.class);
 
     @Path("postgres")
-    public String lePostgres(@QueryParam("processo") String processo, @QueryParam("id") Integer id) throws Exception {
+    public String lePostgres(@QueryParam("processo") String processo, @QueryParam("id") Integer id, @QueryParam("arquivo") String arquivo, @QueryParam("op") Integer op) throws Exception {
         log.info("lePostgres({}, {})", processo, id);
         //ReadXML elemento = new ReadXML();
         //elemento.setName(processo);
@@ -21,31 +21,29 @@ public class TccResource {
         //elemento.setId(id);
 
         //InsertValuePGSQL c = new InsertValuePGSQL();
-        //c.insertProcess(elemento.getId(), elemento.getName());
+        //c.insertProcess(id, arquivo);
 
-        ReadXML.lerXML("startEvent", id);
-        ReadXML.lerXML("task", id);
-        ReadXML.lerXML("exclusiveGateway", id);
-        ReadXML.lerXML("endEvent", id);
-        ReadXML.lerXML("sequenceFlow", id);
+        ReadXML.lerXML("startEvent", id, arquivo, op);
+        ReadXML.lerXML("task", id, arquivo, op);
+        ReadXML.lerXML("exclusiveGateway", id, arquivo, op);
+        ReadXML.lerXML("endEvent", id, arquivo, op);
+        ReadXML.lerXML("sequenceFlow", id, arquivo, op);
         return "ok";
     }
 
     @Path("neo4j")
-    public String leNeo4j(@QueryParam("processo") String processo, @QueryParam("id") Integer id) throws Exception {
-        // Conectar no Banco de dados Neo4j
-        // ConexaoNeo4j neo4j = new ConexaoNeo4j();
-        // InsertValueNeo4j neo4j = new InsertValueNeo4j();
+    public String leNeo4j(@QueryParam("processo") String processo, @QueryParam("id") Integer id, @QueryParam("arquivo") String arquivo,@QueryParam("op") Integer op) throws Exception {
 
-        ReadXML elemento = new ReadXML();
-        elemento.setName(processo);
-        System.out.println("\nIdProcesso: ");
-        elemento.setId(id);
-        ReadXML.lerXML("startEvent", elemento.getId());
-        ReadXML.lerXML("task", elemento.getId());
-        ReadXML.lerXML("exclusiveGateway", elemento.getId());
-        ReadXML.lerXML("endEvent", elemento.getId());
-        ReadXML.lerXML("sequenceFlow", elemento.getId());
+        // InsertValueNeo4j neo4j = new InsertValueNeo4j();
+        //ReadXML elemento = new ReadXML();
+        //elemento.setName(processo);
+        //System.out.println("\nIdProcesso: ");
+        //elemento.setId(id);
+        ReadXML.lerXML("startEvent", id, arquivo, op);
+        ReadXML.lerXML("task", id, arquivo, op);
+        ReadXML.lerXML("exclusiveGateway", id, arquivo, op);
+        ReadXML.lerXML("endEvent", id, arquivo, op);
+        ReadXML.lerXML("sequenceFlow", id, arquivo, op);
         return "ok";
     }
 }
