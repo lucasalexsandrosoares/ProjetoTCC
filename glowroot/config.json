@@ -191,6 +191,18 @@
       "captureKind": "timer",
       "transactionSlowThresholdMillis": 0,
       "timerName": "Tempo"
+    },
+    {
+      "className": "tcc.TccApplication",
+      "methodName": "run",
+      "methodParameterTypes": [
+        "tcc.TccConfiguration",
+        "io.dropwizard.setup.Environment"
+      ],
+      "captureKind": "timer",
+      "transactionType": "Time",
+      "transactionSlowThresholdMillis": 1,
+      "timerName": "Time"
     }
   ]
 }

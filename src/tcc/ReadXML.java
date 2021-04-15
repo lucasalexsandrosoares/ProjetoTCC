@@ -64,7 +64,7 @@ public class ReadXML {
                     if(op == 1){
                         c.insertElemet(idElemento, tag, idProcesso);
                     }else {
-                        //insertNeo4j.insertStartEvent(idProcesso, idElemento, tag);
+                        insertNeo4j.insertStartEvent(idProcesso, idElemento, tag);
                     }
 
                 }
@@ -74,7 +74,7 @@ public class ReadXML {
                     if(op == 1) {
                         c.insertElemet(idElemento, tag, idProcesso);
                     }else{
-                        //insertNeo4j.insertTask(idProcesso, idElemento, tag);
+                        insertNeo4j.insertTask(idProcesso, idElemento, tag);
                     }
 
                 }
@@ -85,7 +85,7 @@ public class ReadXML {
                     if(op == 1) {
                         c.insertElemet(idElemento, tag, idProcesso);
                     }else {
-                        //insertNeo4j.insertExclusiveGateway(idProcesso, idElemento, tag);
+                        insertNeo4j.insertExclusiveGateway(idProcesso, idElemento, tag);
                     }
                 }
 
@@ -95,7 +95,7 @@ public class ReadXML {
                     if(op == 1) {
                         c.insertElemet(idElemento, tag, idProcesso);
                     }else {
-                        //insertNeo4j.insertEndEvent(idProcesso, idElemento, tag);
+                        insertNeo4j.insertEndEvent(idProcesso, idElemento, tag);
                     }
                 }
                 if (tag == "sequenceFlow") {
@@ -106,7 +106,7 @@ public class ReadXML {
                     if(op == 1) {
                         c.insertFluxo(idOrigem, idDestino);
                     }else {
-                        //insertNeo4j.relationship(idOrigem, idDestino);
+                        insertNeo4j.relationship(idOrigem, idDestino);
                     }
                 }
             }

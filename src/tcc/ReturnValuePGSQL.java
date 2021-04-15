@@ -49,7 +49,7 @@ public class ReturnValuePGSQL {
                 elementoOrigem = rs.getString("ElementoOrigem");
                 elementoDestino = rs.getString("ElementoDestino");
 
-                System.out.printf("Elemento Origem: " + elementoOrigem + " -> " + "Elemento Destino: " + elementoDestino);
+                System.out.printf(elementoOrigem + " -> " + elementoDestino);
                 System.out.println();
             }
         } catch (Exception e) {

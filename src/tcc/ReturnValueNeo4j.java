@@ -9,12 +9,12 @@ public class ReturnValueNeo4j {
 
     Driver driver = new ConnectionNeo4j().getConnection();
 
-    public void returnElement() {
+    public void returnElement(Integer id) {
 
         Session session = driver.session();
 
         Result result = session.run(
-                "MATCH (n) WHERE n.IdProcesso  = '1' RETURN  n.NomeElemento as NomeElemento, n.IdElemento as IdElemento");
+                "MATCH (n) WHERE n.IdProcesso  = '"+id+"' RETURN  n.NomeElemento as NomeElemento, n.IdElemento as IdElemento");
 
         while ( result.hasNext() ) {
             Record record = result.next();
@@ -23,12 +23,12 @@ public class ReturnValueNeo4j {
         }
     }
 
-    public void returnFlow() {
+    public void returnFlow(Integer id) {
 
         Session session = driver.session();
 
         Result result = session.run(
-                "MATCH (n)-[r]-(m) RETURN n.NomeElemento + ': '+n.IdElemento as ElemetoOrigem, type(r), m.NomeElemento + ': ' + m.IdElemento as ElementoDestino;");
+                "MATCH (n)-[r]->(m) where n.IdProcesso = '"+id+"' RETURN n.NomeElemento + ': '+n.IdElemento as ElemetoOrigem, type(r), m.NomeElemento + ': ' + m.IdElemento as ElementoDestino;");
 
         while ( result.hasNext() ) {
             Record record = result.next();
