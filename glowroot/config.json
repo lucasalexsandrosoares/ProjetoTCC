@@ -1,7 +1,7 @@
 {
   "transactions": {
     "slowThresholdMillis": 10,
-    "profilingIntervalMillis": 1000,
+    "profilingIntervalMillis": 10,
     "captureThreadStats": true
   },
   "jvm": {
@@ -183,53 +183,56 @@
   ],
   "instrumentation": [
     {
-      "className": "Main",
-      "methodName": "lePostgres",
+      "className": "tcc.ReturnValueNeo4j",
+      "methodName": "*",
       "methodParameterTypes": [
         ".."
       ],
-      "captureKind": "timer",
-      "transactionSlowThresholdMillis": 0,
-      "timerName": "Tempo"
-    },
-    {
-      "className": "tcc.ReturnValueNeo4j",
-      "methodName": "returnFlow",
-      "methodParameterTypes": [
-        "java.lang.Integer"
-      ],
       "captureKind": "transaction",
-      "transactionType": "Time",
-      "transactionNameTemplate": "returnFlow",
-      "alreadyInTransactionBehavior": "capture-new-transaction",
+      "transactionType": "ReturnNeo4j",
+      "transactionNameTemplate": "ReturnNeo4j",
+      "alreadyInTransactionBehavior": "capture-trace-entry",
       "traceEntryMessageTemplate": "{{this}}.{{methodName}}({{0}}), {{1}}:{{_}}",
-      "timerName": "Time"
+      "timerName": "ReturnNeo4j"
     },
     {
       "className": "tcc.ReturnValuePGSQL",
-      "methodName": "selectFlow",
+      "methodName": "*",
       "methodParameterTypes": [
-        "java.lang.Integer"
+        ".."
       ],
       "captureKind": "transaction",
-      "transactionType": "selectFlow",
-      "transactionNameTemplate": "selectFlow",
+      "transactionType": "ReturnPG",
+      "transactionNameTemplate": "ReturnPG",
       "alreadyInTransactionBehavior": "capture-trace-entry",
       "traceEntryMessageTemplate": "{{this}}.{{methodName}}({{0}}), {{1}}:{{_}}",
-      "timerName": "Main"
+      "timerName": "ReturnPG"
     },
     {
-      "className": "tcc.ReturnValueNeo4j",
-      "methodName": "returnElement",
+      "className": "tcc.InsertValueNeo4j",
+      "methodName": "*",
       "methodParameterTypes": [
-        "java.lang.Integer"
+        ".."
       ],
       "captureKind": "transaction",
-      "transactionType": "returnElement",
-      "transactionNameTemplate": "returnElement",
+      "transactionType": "InsertNeo4j",
+      "transactionNameTemplate": "InsertNeo4j",
       "alreadyInTransactionBehavior": "capture-trace-entry",
-      "traceEntryMessageTemplate": "{{this}}.{{methodName}}({{0}}), {{1}}:{{_}}",
-      "timerName": "returnElement"
+      "traceEntryMessageTemplate": "*",
+      "timerName": "InsertNeo4j"
+    },
+    {
+      "className": "tcc.InsertValuePGSQL",
+      "methodName": "*",
+      "methodParameterTypes": [
+        ".."
+      ],
+      "captureKind": "transaction",
+      "transactionType": "InsertPG",
+      "transactionNameTemplate": "InsertPG",
+      "alreadyInTransactionBehavior": "capture-trace-entry",
+      "traceEntryMessageTemplate": "*",
+      "timerName": "InsertPG"
     }
   ]
 }

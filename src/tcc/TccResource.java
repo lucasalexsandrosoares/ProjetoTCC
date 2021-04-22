@@ -33,7 +33,7 @@ public class TccResource {
 
     @Path("neo4j")
     public String leNeo4j(@QueryParam("processo") String processo, @QueryParam("id") Integer id, @QueryParam("arquivo") String arquivo,@QueryParam("op") Integer op) throws Exception {
-
+        log.info("leNeo4j({}, {})", processo, id);
         // InsertValueNeo4j neo4j = new InsertValueNeo4j();
         //ReadXML elemento = new ReadXML();
         //elemento.setName(processo);

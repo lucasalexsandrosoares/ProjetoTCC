@@ -25,6 +25,7 @@ public class ReturnValueNeo4j {
 
     public void returnFlow(Integer id) {
 
+        try{
         Session session = driver.session();
 
         Result result = session.run(
@@ -34,6 +35,9 @@ public class ReturnValueNeo4j {
             Record record = result.next();
             System.out.println( record.get("ElemetoOrigem" ).asString() +
                     " -> " + record.get("ElementoDestino").asString() );
+        }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
