@@ -233,6 +233,32 @@
       "alreadyInTransactionBehavior": "capture-trace-entry",
       "traceEntryMessageTemplate": "*",
       "timerName": "InsertPG"
+    },
+    {
+      "className": "tcc.ConnectionNeo4j",
+      "methodName": "getConnection",
+      "methodParameterTypes": [
+        ".."
+      ],
+      "captureKind": "transaction",
+      "transactionType": "ConnectionNeo4j",
+      "transactionNameTemplate": "ConnectionNeo4j",
+      "alreadyInTransactionBehavior": "capture-trace-entry",
+      "traceEntryMessageTemplate": "{{this}}.{{methodName}}({{0}}), {{1}}:{{_}}",
+      "timerName": "ConnectionNeo4j"
+    },
+    {
+      "className": "tcc.ConnectionPGSQL",
+      "methodName": "getConnection",
+      "methodParameterTypes": [
+        ".."
+      ],
+      "captureKind": "transaction",
+      "transactionType": "ConnectionPG",
+      "transactionNameTemplate": "ConnectionPG",
+      "alreadyInTransactionBehavior": "capture-trace-entry",
+      "traceEntryMessageTemplate": "{{this}}.{{methodName}}({{0}}), {{1}}:{{_}}",
+      "timerName": "ConnectionPG"
     }
   ]
 }

@@ -52,21 +52,23 @@ public class TccApplication extends Application<TccConfiguration> {
                     ReturnValuePGSQL returnPG = new ReturnValuePGSQL();
                     System.out.println("IdProcesso: ");
                     input = s.nextInt();
-                    System.out.println("======= Elementos =======");
+                    c.returnPG(input);
+                    /*System.out.println("======= Elementos =======");
                     returnPG.selectElement(input);
                     System.out.println("");
                     System.out.println("======= Transições =======");
-                    returnPG.selectFlow(input);
+                    returnPG.selectFlow(input);*/
                     break;
                 case 4:
                     ReturnValueNeo4j returnNeo4j = new ReturnValueNeo4j();
                     System.out.println("IdProcesso: ");
                     input = s.nextInt();
-                    System.out.println("======= Elementos =======");
+                    c.returnNeo4j(input);
+                    /*System.out.println("======= Elementos =======");
                     returnNeo4j.returnElement(input);
                     System.out.println("");
                     System.out.println("======= Transições =======");
-                    returnNeo4j.returnFlow(input);
+                    returnNeo4j.returnFlow(input);*/
                     break;
             }
         }

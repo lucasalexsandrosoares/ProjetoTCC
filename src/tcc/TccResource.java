@@ -46,4 +46,21 @@ public class TccResource {
         ReadXML.lerXML("sequenceFlow", id, arquivo, op);
         return "ok";
     }
+
+    @Path("returnPostgres")
+    public String returnPG(@QueryParam("id") Integer id) throws Exception {
+        log.info("returnPostgres({}, {})", id);
+        ReturnValuePGSQL returnPG = new ReturnValuePGSQL();
+        returnPG.selectFlow(id);
+        return "ok";
+    }
+
+    @Path("returnNeo4j")
+    public String returnNeo4j(@QueryParam("id") Integer id) throws Exception {
+        log.info("returnNeo4j({}, {})", id);
+        ReturnValueNeo4j returnNeo4j = new ReturnValueNeo4j();
+        returnNeo4j.returnFlow(id);
+        return "ok";
+    }
+
 }
